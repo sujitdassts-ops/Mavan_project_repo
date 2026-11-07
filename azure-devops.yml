@@ -12,4 +12,7 @@ steps:
 
   - script: mvn compile
     displayName: 'Maven Compile completed successfully'
+
+  - script: mvn test
+    displayName: 'Maven Test completed successfully'
     

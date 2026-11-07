@@ -4,4 +4,9 @@ trigger:
   - devOps
 
 pool :
-    vmImage
+    vmImage: 'ubuntu-latest'
+
+steps:
+  - script: mvn validate
+    displayName: 'Maven Validate'
+    
